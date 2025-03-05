@@ -8,9 +8,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "angga2oioi",
   "license": "ISC",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angga2oioi/readme-generator.git"
+  },
   "dependencies": {
     "ignore": "^7.0.3",
     "jaci": "^0.0.4",
