@@ -11,8 +11,11 @@ npx github:angga2oioi/readme-generator
 ```
 
 1. Enter the path of the directory you want to document.
-2. Provide the OpenAI connection details (JSON).
-3. Specify the AI model you would like to use.
+2. Provide the OpenAI connection details (JSON). You can also use your custom openai credential
+ ```json
+  {"baseURL":"YOUR_BASE_URL","apiKey": "YOUR_OPENAI_API_KEY"}
+  ```
+3. Specify the AI model you would like to use like `gpt-4o-mini`, `llama3.1:8b` or else
 
 The tool will create a `readme.md` file in the specified directory with the generated content.
 
